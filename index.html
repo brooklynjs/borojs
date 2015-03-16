@@ -3,13 +3,12 @@
   <head>
     <style>
       html {
-        /* https://www.flickr.com/photos/justininsd/8013982631 */
         background: #444 url(skyline.jpg) no-repeat center center fixed;
         background-size: cover;
         text-align: center;
       }
 
-      a {
+      .logo {
         display: inline-block;
         border: 5px solid #fff;
         border-radius: 10px;
@@ -17,18 +16,29 @@
         box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
       }
 
-      img {
+      .logo img {
         display: block;
         border-radius: 5px;
         width: 120px;
         height: 120px;
       }
+
+      .credit {
+        color: #aaa;
+        font-family: sans-serif;
+        font-size: 12px;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+      }
+
     </style>
   </head>
   <body>
-    <a href="http://brooklynjs.com"><img src="logos/brooklyn_js.png"></a>
-    <a href="http://jerseyscript.github.io"><img src="logos/jerseyscript.png"></a>
-    <a href="http://manhattanjs.com"><img src="logos/manhattan_js.png"></a>
-    <a href="http://www.meetup.com/QueensJS"><img src="logos/queens_js.png"></a>
+    <a class="logo" href="http://brooklynjs.com"><img src="logos/brooklyn_js.png"></a>
+    <a class="logo" href="http://jerseyscript.github.io"><img src="logos/jerseyscript.png"></a>
+    <a class="logo" href="http://manhattanjs.com"><img src="logos/manhattan_js.png"></a>
+    <a class="logo" href="http://www.meetup.com/QueensJS"><img src="logos/queens_js.png"></a>
+    <a class="credit" href="https://www.flickr.com/photos/justininsd/8013982631">Photo by justininsd</a>
   </body>
 </html>
